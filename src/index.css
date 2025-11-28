@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #212529;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,25 +15,60 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #007BFF;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #0056b3;
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #f8f9fa;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+
+h2 {
+  color: #007BFF;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+.btn-primary:hover {
+    background-color: #409CFF;
+    border-color: #409CFF;
+}
+
+.btn-info {
+    background-color: #17A2B8;
+    border-color: #17A2B8;
+}
+
+.btn-info:hover {
+    background-color: #3FD2E8;
+    border-color: #3FD2E8;
+}
+
+.btn-outline-primary {
+    color: #007BFF;
+    border-color: #007BFF;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
 
 button {
   border-radius: 8px;
@@ -42,12 +77,13 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #007BFF;
+  color: #fff;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #409CFF;
 }
 button:focus,
 button:focus-visible {
@@ -57,14 +93,15 @@ button:focus-visible {
 .card-img-top {
   aspect-ratio: 1 / 1;
   object-fit: fill;
-  background-color: #343a40;
+  background-color: #e9ecef;
   image-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .card {
-  border: 1px solid #dee2e6;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125);
 }
 
 @media (prefers-color-scheme: light) {
@@ -78,4 +115,19 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+    .card {
+      background-color: #f9f9f9;
+      border: 1px solid #dee2e6;
+    }
+  }
+  
+  .bg-main-content {
+    background-color: #f8f9fa;
+    color: #212529;
+  }
+  
+  .custom-bg {
+    background-image: url('./assets/images/bg.png');
+    background-size: cover;
+  }
+  
