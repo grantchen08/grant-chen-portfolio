@@ -54,6 +54,19 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.card-img-top {
+  aspect-ratio: 1 / 1;
+  object-fit: fill;
+  background-color: #343a40;
+  image-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.card {
+  border: 1px solid #dee2e6;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
