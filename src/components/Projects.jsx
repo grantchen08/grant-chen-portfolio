@@ -3,6 +3,16 @@ import nezhaImage from '../assets/images/nezha.png';
 import chemistryImage from '../assets/images/chemistry.png';
 import cityBuilderImage from '../assets/images/city-builder.png';
 import gptHelperImage from '../assets/images/gpt-helper.png';
+import drawing1 from '../assets/images/drawings/20240601_114500.jpg';
+import drawing2 from '../assets/images/drawings/20240601_114652.jpg';
+import drawing3 from '../assets/images/drawings/20240601_114712.jpg';
+import drawing4 from '../assets/images/drawings/20240601_114737.jpg';
+import drawing5 from '../assets/images/drawings/FINAL ARTWORK Image 1 Grant Chen.jpg';
+import drawing6 from '../assets/images/drawings/mmexport1713106717843~2.jpg';
+import drawing7 from '../assets/images/drawings/mmexport1717872966604.jpg';
+import drawing8 from '../assets/images/drawings/mmexport1717872974069.jpg';
+import drawing9 from '../assets/images/drawings/mmexport1717872978962.jpg';
+import drawing10 from '../assets/images/drawings/mmexport1717872984925.jpg';
 
 const Projects = () => {
   const projects = [
@@ -35,6 +45,19 @@ const Projects = () => {
     }
   ];
 
+  const drawings = [
+    { title: 'Drawing 1', image: drawing1 },
+    { title: 'Drawing 2', image: drawing2 },
+    { title: 'Drawing 3', image: drawing3 },
+    { title: 'Drawing 4', image: drawing4 },
+    { title: 'Drawing 5', image: drawing5 },
+    { title: 'Drawing 6', image: drawing6 },
+    { title: 'Drawing 7', image: drawing7 },
+    { title: 'Drawing 8', image: drawing8 },
+    { title: 'Drawing 9', image: drawing9 },
+    { title: 'Drawing 10', image: drawing10 },
+  ];
+
   return (
     <section className="p-5">
       <div className="container">
@@ -60,6 +83,23 @@ const Projects = () => {
         </div>
         <div className="text-center">
           <a href="https://github.com/grantchen08?tab=repositories" className="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">View All Projects on GitHub</a>
+        </div>
+      </div>
+      <div className="container mt-5">
+        <h2 className="text-center mb-4">Drawings</h2>
+        <div className="row">
+          {drawings.map((drawing, index) => (
+            <div className="col-md-4 mb-4" key={index}>
+              <div className="card h-100">
+                <a href={drawing.image} target="_blank" rel="noopener noreferrer">
+                  <img src={drawing.image} className="card-img-top" alt={drawing.title} />
+                </a>
+                <div className="card-body">
+                  <h5 className="card-title">{drawing.title}</h5>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

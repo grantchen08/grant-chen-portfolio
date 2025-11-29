@@ -91,8 +91,8 @@ button:focus-visible {
 }
 
 .card-img-top {
-  aspect-ratio: 1 / 1;
-  object-fit: fill;
+  height: 250px;
+  object-fit: cover;
   background-color: #e9ecef;
   image-rendering: auto;
   -webkit-font-smoothing: antialiased;
