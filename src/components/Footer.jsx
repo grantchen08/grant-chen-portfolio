@@ -10,6 +10,11 @@ const Footer = () => {
         <p>
           <a href="https://github.com/grantchen08" target="_blank" rel="noopener noreferrer" className="text-white">GitHub</a>
         </p>
+        <div className="print-only" style={{ marginTop: '10px' }}>
+          <p>
+            Live Portfolio: <a href="https://grantchen08.github.io/grant-chen-portfolio/" className="text-white">https://grantchen08.github.io/grant-chen-portfolio/</a>
+          </p>
+        </div>
       </div>
     </footer>
   );

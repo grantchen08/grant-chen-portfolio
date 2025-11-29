@@ -64,7 +64,7 @@ const Projects = () => {
         <h2 className="text-center mb-4">Projects</h2>
         <div className="row">
           {projects.map((project, index) => (
-            <div className="col-md-6 mb-4" key={index}>
+            <div className="col-md-6 mb-4 project-card" key={index}>
               <div className="card h-100">
                 <img src={project.image} className="card-img-top" alt={project.title} />
                 <div className="card-body d-flex flex-column">
@@ -85,11 +85,11 @@ const Projects = () => {
           <a href="https://github.com/grantchen08?tab=repositories" className="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">View All Projects on GitHub</a>
         </div>
       </div>
-      <div className="container mt-5">
+      <div className="container mt-5 drawings-section">
         <h2 className="text-center mb-4">Drawings</h2>
-        <div className="row">
+        <div className="row drawings-row">
           {drawings.map((drawing, index) => (
-            <div className="col-md-4 mb-4" key={index}>
+            <div className="col-md-4 mb-4 drawing-card" key={index}>
               <div className="card h-100">
                 <a href={drawing.image} target="_blank" rel="noopener noreferrer">
                   <img src={drawing.image} className="card-img-top" alt={drawing.title} />

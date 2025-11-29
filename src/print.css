@@ -1,0 +1,36 @@
+@media print {
+  /* Ensure a clean page break before the drawings section */
+  .drawings-section {
+    page-break-before: always;
+  }
+
+  /* Adjust project card layout for printing */
+  .project-card {
+    page-break-inside: avoid;
+  }
+
+  /* Adjust drawing card layout for printing */
+  .drawing-card {
+    page-break-inside: avoid;
+  }
+
+  /* Force single column layout for drawings to prevent overlap */
+  .drawings-row {
+    display: block;
+  }
+  .drawings-row .col-md-4 {
+    width: 100%;
+    display: block;
+    float: none;
+  }
+
+  .print-only {
+    display: block;
+  }
+}
+
+@media screen {
+  .print-only {
+    display: none;
+  }
+}
