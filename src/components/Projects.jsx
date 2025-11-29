@@ -17,11 +17,11 @@ import drawing10 from '../assets/images/drawings/mmexport1717872984925.jpg';
 const Projects = () => {
   const projects = [
     {
-      title: 'Nezha - A Real-Time Strategy Game',
-      description: 'I developed \'Nezha,\' a real-time strategy browser game using Phaser 3. The project\'s main challenge was creating an autonomous AI for unit pathfinding and decision-making, which I implemented from scratch. This project solidified my JavaScript skills and experience with game development frameworks.',
-      image: nezhaImage,
-      link: 'https://github.com/grantchen08/nezha',
-      demoLink: 'https://grantchen08.github.io/nezha'
+      title: 'City Merge Puzzle',
+      description: 'My first major project, a 2048-inspired city-builder puzzle game. I used JavaScript to implement the core game logic and tile-merging mechanics. This project was a foundational experience in game development and version control with Git and GitHub.',
+      image: cityBuilderImage,
+      link: 'https://github.com/grantchen08/puzzle',
+      demoLink: 'https://grantchen08.github.io/puzzle/'
     },
     {
       title: 'Grade 12 Chemistry Tutor',
@@ -31,11 +31,11 @@ const Projects = () => {
       demoLink: 'https://grantchen08.github.io/grade12-chemistry-tutor/'
     },
     {
-      title: 'City Merge Puzzle',
-      description: 'My first major project, a 2048-inspired city-builder puzzle game. I used JavaScript to implement the core game logic and tile-merging mechanics. This project was a foundational experience in game development and version control with Git and GitHub.',
-      image: cityBuilderImage,
-      link: 'https://github.com/grantchen08/puzzle',
-      demoLink: 'https://grantchen08.github.io/puzzle/'
+      title: 'Nezha - A Real-Time Strategy Game',
+      description: 'I developed \'Nezha,\' a real-time strategy browser game using Phaser 3. The project\'s main challenge was creating an autonomous AI for unit pathfinding and decision-making, which I implemented from scratch. This project solidified my JavaScript skills and experience with game development frameworks.',
+      image: nezhaImage,
+      link: 'https://github.com/grantchen08/nezha',
+      demoLink: 'https://grantchen08.github.io/nezha'
     },
     {
       title: 'GPT-Helper',
