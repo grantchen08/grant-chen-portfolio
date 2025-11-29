@@ -18,28 +18,28 @@ const Projects = () => {
   const projects = [
     {
       title: 'Nezha - A Real-Time Strategy Game',
-      description: 'I returned to my initial passion for games to build a real-time strategy game based on the myth of Nezha. The biggest challenge was the AI. I spent weeks figuring out how to make units decide what to do on their own. Seeing a unit move into the fog of war by itself for the first time was a moment of pure joy.',
+      description: 'I developed \'Nezha,\' a real-time strategy browser game using Phaser 3. The project\'s main challenge was creating an autonomous AI for unit pathfinding and decision-making, which I implemented from scratch. This project solidified my JavaScript skills and experience with game development frameworks.',
       image: nezhaImage,
       link: 'https://github.com/grantchen08/nezha',
       demoLink: 'https://grantchen08.github.io/nezha'
     },
     {
       title: 'Grade 12 Chemistry Tutor',
-      description: 'To help my friends and I struggling with organic chemistry, I created an educational game. It started as a simple quiz but grew into a tool that helped us understand the lessons better. This project taught me how powerful coding can be for learning.',
+      description: 'To aid with Grade 12 organic chemistry, I created a gamified learning tool. This project, built with JavaScript, transformed complex concepts into an interactive quiz game. It was a great exercise in applying programming to solve real-world problems and creating educational software.',
       image: chemistryImage,
       link: 'https://github.com/grantchen08/grade12-chemistry-tutor',
       demoLink: 'https://grantchen08.github.io/grade12-chemistry-tutor/'
     },
     {
       title: 'City Merge Puzzle',
-      description: 'My first real project, a city-builder puzzle game inspired by 2048. Watching the tiles merge because of my code was an incredible feeling. Uploading it to GitHub made it feel real, like I had built something that existed beyond my computer.',
+      description: 'My first major project, a 2048-inspired city-builder puzzle game. I used JavaScript to implement the core game logic and tile-merging mechanics. This project was a foundational experience in game development and version control with Git and GitHub.',
       image: cityBuilderImage,
       link: 'https://github.com/grantchen08/puzzle',
       demoLink: 'https://grantchen08.github.io/puzzle/'
     },
     {
       title: 'GPT-Helper',
-      description: 'I built this Python tool to solve a personal problem: applying AI-generated code patches to my projects. It uses fuzzy matching to figure out where new code should go. It reminded me that coding is not just about writing code, but about solving problems creatively.',
+      description: 'I created GPT-Helper, a Python command-line tool to streamline applying AI-generated code patches. It uses fuzzy string matching algorithms to intelligently find the correct location for code changes within a file. This project enhanced my Python skills and my ability to develop practical developer tools.',
       image: gptHelperImage,
       link: 'https://github.com/grantchen08/GPT-Helper'
     }

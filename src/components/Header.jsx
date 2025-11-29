@@ -5,7 +5,7 @@ const Header = () => {
     <header className="custom-bg text-white text-center p-5">
       <div className="container">
         <h1>Grant Chen</h1>
-        <p className="lead">Aspiring Multidisciplinary Designer</p>
+        <p className="lead">Student | Game Designer | Digital Artist</p>
       </div>
     </header>
   );

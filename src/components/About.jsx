@@ -9,7 +9,10 @@ const About = () => {
           My journey into programming began with a frozen video game. What started as a moment of frustration quickly turned into curiosity about what was happening behind the scenes. That curiosity sparked a passion for building my own worlds, not just playing in them. Today, I see programming as a powerful tool for creative problem-solving and for bringing ideas to life. I am driven by a desire to create software that is not only technically solid but also meaningful—software that can teach, inspire, or simply make people happy.
         </p>
         <p className="lead text-center">
-          As AI continues to evolve, I see it not as a threat, but as a collaborator. I am excited to explore how AI can be used to augment our own creativity and to build things we couldn't create on our own. I believe that the future of design and technology lies in the hands of those who are not afraid to experiment, to learn, and to push the boundaries of what is possible.
+          I am a Grade 12 student at Unionville High School, with a passion for game design, computer science, digital art, and engineering. I enjoy working on hands-on projects, learning new tools, and experimenting with creative ideas where I can mix programming with digital media.
+        </p>
+        <p className="lead text-center">
+          I'm a creative problem-solver and a fast learner, especially with new AI tools. I have strong coding fundamentals and a good eye for digital art and visual design. I'm an independent and self-driven person with good time management skills, which has helped me build a strong project history on GitHub.
         </p>
       </div>
     </section>
